@@ -29,24 +29,24 @@ nav.menu a {
 }
 
 nav.menu a:hover{
-  color: aqua;
+  color: aquamarine;
 }
 
 body {
   background-image: url("../img/backgroudinicio.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
 }
 
 .bg-back-opa {
   background-color: rgba(0, 0, 0, 0.800);
-  height: 500px;
   color: white;
 }
 
 .page1 {
   padding: 0 0 20px 0;
+  height: 800px;
 }
 
 .page2 {
@@ -69,8 +69,16 @@ body {
   text-align: center;
 }
 
+.page3 {
+  height: auto;
+  margin: 0;
+  padding: 0;
+} 
 .page3 h1 {
+  padding: 20px 0 20px 0;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.800);
+  margin-bottom: 50px;
 }
 
 .page3#serv h4 {
@@ -83,4 +91,93 @@ body {
   margin: 0 10px 20px 10px;
   padding: 10px;
   text-align: center;
+}
+
+.page4 h1 {
+  padding: 20px 0 20px 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.800);
+}
+
+.page4 table {
+  text-align: center;
+  width: 100%;
+  margin: 100px 0 400px 0;
+}
+
+.page4 th a {
+  text-decoration: none;
+  color: white;
+}
+
+.page4 th a:hover {
+  color: aquamarine;
+}
+
+.page5 {
+  height: auto;
+}
+
+.page5 h1 {
+  padding: 20px 0 20px 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.800);
+  margin-bottom: 50px;
+}
+
+.page6 {
+  padding-bottom: 400px;
+}
+
+.page6 h1 {
+  padding: 20px 0 20px 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.800);
+  margin-bottom: 50px;
+}
+
+.page6 input {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page6 textarea {
+  text-transform: uppercase;
+  width: 100px;
+  padding: 10px;
+  color: black;
+  margin-top: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.page6 form {
+  font-family: Verdana,Tahoma,sans-serif;
+  font-size: 15px;
+  max-width: 500px;
+}
+
+.page6 input:hover, textarea:hover, input:focus, textarea:focus {
+  background-color: #b6fffb;
+}
+
+.page6 .enviar {
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: black;
+}
+
+.page6 textarea {
+  width: 400px;
+  height: 120px;
+  line-height: 20px;
+  max-width: 400px;
+}
+
+.page6 form label {
+  margin-left: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
 }
